@@ -1,0 +1,71 @@
+.container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.dice {
+    text-align: center;
+    display: inline-block;
+}
+
+body {
+    background-color: #393E46;
+}
+
+h1 {
+    margin: 30px;
+    font-family: 'Lobster', cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 8rem;
+    color: #4ECCA3;
+}
+
+p {
+    font-size: 2rem;
+    color: #4ECCA3;
+    font-family: 'Indie Flower', cursive;
+}
+
+.player-win {
+    font-size: 2rem;
+    color: red;
+    font-weight: bold;
+}
+
+img {
+    width: 80%;
+}
+
+footer {
+    margin-top: 2%;
+    color: #EEEEEE;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+}
+
+.btn {
+    color: #444;
+    background: none;
+    border: none;
+    font-family: inherit;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 400;
+    transition: all 0.2s;
+    background-color: white;
+    background-color: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(10px);
+    padding: 0.7rem 2.5rem;
+    border-radius: 50rem;
+    box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.1);
+}
+
+.btn:active {
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+}
+
+.btn:focus {
+    outline: none;
+}
