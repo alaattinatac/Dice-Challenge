@@ -1,10 +1,10 @@
 let player1 = prompt("Please enter the name of the first player:");
-if (player1 === null) {
+if (player1 === null || player1 === "") {
     alert("You did not write a name.");
     player1 = "Player1";
 }
 let player2 = prompt("Please enter the name of the second player:");
-if (player2 === null) {
+if (player2 === null || player2 === "") {
     alert("You did not write a name.");
     player2 = "Player2";
 }
